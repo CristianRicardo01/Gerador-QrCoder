@@ -31,20 +31,20 @@ Este é um projeto simples de geração de QR Codes desenvolvido em PHP com a bi
 
 2. Abra o terminal no diretório do projeto e execute:
 
-composer require endroid/qr-code:^4.4
+  composer require endroid/qr-code:^4.4
 
 
 ## 📁 Estrutura de arquivos
 
 meuqrcode/
-│
-├── index.php           # Formulário principal
-├── gerar.php           # Lógica para gerar e salvar o QR Code
-├── qrcodes/            # Pasta onde os QR Codes gerados são armazenados
-├── vendor/             # Dependências gerenciadas via Composer
-├── composer.json       # Declaração de dependências
-├── composer.lock       # Versões exatas instaladas
-└── README.md           # Documentação do projeto
+`│`
+`├── index.php           # Formulário principal`
+`├── gerar.php           # Lógica para gerar e salvar o QR Code`
+`├── qrcodes/            # Pasta onde os QR Codes gerados são armazenados`
+`├── vendor/             # Dependências gerenciadas via Composer`
+`├── composer.json       # Declaração de dependências`
+`├── composer.lock       # Versões exatas instaladas`
+`└── README.md           # Documentação do projeto`
 
 
 ## 👨‍💻 Autor
